@@ -20,7 +20,6 @@ public class Longest_Repeating_Character_Replacement {
 
     public int characterReplacement(String s, int k) {
         HashMap<Character, Integer> map = new HashMap<>();
-
         int l = 0;
         int r = 0;
         char curChar = s.charAt(0);
