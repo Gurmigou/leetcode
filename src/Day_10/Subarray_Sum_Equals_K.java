@@ -6,12 +6,15 @@ public class Subarray_Sum_Equals_K {
     public static void main(String[] args) {
         var app = new Subarray_Sum_Equals_K();
 
-        int[] arr = {1, -1, 1, 1, 1};
-        int k = 3;
+        int[] arr = {1, 0, 1, 1, -1, 1, 1};
+        int k = 2;
 
         int result = app.subarraySum(arr, k);
         System.out.println(result);
     }
+
+    // 7 5 10 11 6
+    // 2 5 5 1 1
 
     public int subarraySum(int[] nums, int k) {
         int result = 0;
