@@ -33,35 +33,5 @@ public class Merge_Intervals {
         return !(i1.end < i2.start || i1.start > i2.end);
     }
 
-    static class Interval {
-        int start;
-        int end;
-        boolean closed;
 
-        public Interval(int start, int end) {
-            this.start = start;
-            this.end = end;
-            this.closed = true;
-        }
-
-        public int getStart() {
-            return start;
-        }
-
-        public void setStart(int start) {
-            this.start = start;
-        }
-
-        public int getEnd() {
-            return end;
-        }
-
-        public void setEnd(int end) {
-            this.end = end;
-        }
-
-        public void setClosed(boolean closed) {
-            this.closed = closed;
-        }
-    }
 }
